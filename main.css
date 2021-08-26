@@ -1,0 +1,99 @@
+body{
+	padding: 0;
+	background-color: rgb(219, 10, 219);
+}
+
+/* -------------------------------------- */
+.top{
+	width: auto;
+	height: 80px;
+	background: pink;
+	border-radius: 50px;
+}
+.top ul{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 750px;
+}
+.top li{
+	display: inline;
+	margin-left: 50px;
+}
+.top a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: purple;
+
+}
+/* -------------------------------------------- */
+.sign{
+	width: 600px;
+	height: 400px;
+	background-color: skyblue;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+.sign input{
+	width: 350px;
+	height: 40px;
+	border-radius: 10px;
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	border: none;
+	margin-left: 150px;
+	font-size: x-large;
+	color: slateblue;
+}
+.sign #email{
+	font-size: 30px;
+	position: absolute;
+	font-family: 'Times New Roman', Times, serif ;
+	margin-top: 50px;
+	margin-left: 70px;
+	color: rgb(224, 11, 224);
+	font-weight: 500;
+}
+
+.sign #passw{
+	font-size: 30px;
+	position: absolute;
+	font-family: 'Times New Roman', Times, serif ;
+	margin-top: 50px;
+	margin-left: 40px;
+	color: rgb(224, 11, 224);
+	font-weight: 500;
+}
+
+/* ---------------------------------------------------------------- */
+.button-1{
+	position: absolute;
+	margin: -180px 0px 0px 750px ;
+}
+.button-1 button{
+	width: 150px;
+	height: 80px;
+	border: none;
+	border-radius:50px ;
+	font-size: 30px;
+	padding: 0;
+	transition-duration:.5s ;
+	transition-timing-function:ease-out ;
+	color: skyblue;
+	background-color: rgb(224, 11, 224);
+}
+.button-1 button:hover{
+	color: rgb(224, 11, 224);
+	background-color: skyblue;
+	font-size: 45px;
+}
+
+/* ------------------------------------------------------------------- */
+.ask{
+	position: absolute;
+	margin: -50px 0px 0px 700px ;
+	color: rgb(253, 74, 74);
+}
+
+/* ------------------------------------------------------------------ */
